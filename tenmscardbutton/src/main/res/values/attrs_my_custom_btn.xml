@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCustomButtonView">
+        <attr name="nameBold" format="boolean" />
+        <attr name="hidePictureRight" format="boolean" />
+        <attr name="hidePictureLeft" format="boolean"/>
+        <attr name="cornerRadius" format="integer"/>
+
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+
+        <attr name="rightImageSrc" format="reference" />
+        <attr name="leftImageSrc" format="reference" />
+        <attr name="cardBackground" format="reference|color" />
+        <!--<attr name="positiveButtonBackground" format="reference|color" />-->
+
+        <attr name="imageLogoWidthDp" format="dimension" />
+        <attr name="imageLogoHeightDp" format="dimension" />
+    </declare-styleable>
+</resources>
